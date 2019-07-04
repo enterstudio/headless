@@ -23,7 +23,9 @@
   "private": true,
   "main": "headless.js",
   "scripts": {
-    "start": "node headless"
+    "start": "node headless",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -40,6 +42,8 @@
     "phantomjs": ">=1.9.8 <2.0.0",
     "request": "*",
     "stream-throttle": "*",
-    "ws": "*"
-  }
+    "ws": "*",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
