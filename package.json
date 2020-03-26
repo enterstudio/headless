@@ -37,7 +37,7 @@
     "isbinaryfile": "*",
     "node-static": "*",
     "node-uuid": "*",
-    "phantomjs": ">=1.9.8 <2.0.0",
+    "phantomjs": ">=2.1.1",
     "request": "*",
     "stream-throttle": "*",
     "ws": "*"
